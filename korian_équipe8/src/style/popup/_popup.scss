@@ -1,0 +1,26 @@
+
+.popup {
+    position: fixed;
+    top: 40px;
+    left: 7vw;
+    width: 90vw;
+    height: 90vh;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 80px;
+    border: solid 5px #E08330;
+    display : flex;
+    justify-content : center;
+    overflow-y: auto;
+
+}
+
+
+
+.popup-inner .close-btn {
+    position: absolute;
+    top: 40px;
+    left: 45px;
+    background-color: rgba(255,255,255,0.9);
+
+}
+
